@@ -8,7 +8,7 @@ print(f"Guess the number in the range from {lower_num} to {higher_num}.")
 while True:
     try:
         user_guess: int=int(input("Enter your guess: "))
-    except valueError as e:
+    except ValueError as e:
         print("please enter a valid number")
         continue
     
